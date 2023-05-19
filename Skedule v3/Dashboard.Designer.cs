@@ -40,9 +40,9 @@
             this.labelNumUpcomingQuiz = new System.Windows.Forms.Label();
             this.labelNumPendingTasks = new System.Windows.Forms.Label();
             this.labelNumDayFinal = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.label_MyList = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelDashboardUp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -188,6 +188,16 @@
             this.labelNumDayFinal.TabIndex = 1;
             this.labelNumDayFinal.Text = "72";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(502, 207);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(167, 56);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Announcement";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // label_MyList
             // 
             this.label_MyList.AutoSize = true;
@@ -209,16 +219,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1090, 305);
             this.dataGridView1.TabIndex = 18;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(502, 207);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 56);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Announcement";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Dashboard
             // 
@@ -253,8 +253,8 @@
         private System.Windows.Forms.Label labelNumUpcomingQuiz;
         private System.Windows.Forms.Label labelNumPendingTasks;
         private System.Windows.Forms.Label labelNumDayFinal;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label_MyList;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
     }
 }
