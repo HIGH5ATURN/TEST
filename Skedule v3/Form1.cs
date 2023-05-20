@@ -142,7 +142,7 @@ namespace Skedule_v3
                     SystemManage.id = SystemManage.StudentList[i].studentID;
                     this.Hide();
 
-                   new Quiz().Show();
+                   new Dashboard().Show();
 
                     check= true;
 

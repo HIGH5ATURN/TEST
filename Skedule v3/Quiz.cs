@@ -213,5 +213,76 @@ namespace Skedule_v3
             }
 
         }
+
+        private void gunaControlBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttondash_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Dashboard().Show();
+        }
+
+        private void labelLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void roomtext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void syllabustext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void subjecttext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timetext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaControlBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

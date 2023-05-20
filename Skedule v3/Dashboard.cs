@@ -24,5 +24,19 @@ namespace Skedule_v3
            
            new Announcement().Show();
         }
+
+        private void quizbutton_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+
+            new Quiz().Show();
+        }
+
+        private void Routine_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Routine().Show();
+        }
     }
 }

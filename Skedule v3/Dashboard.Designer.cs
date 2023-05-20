@@ -40,12 +40,11 @@
             this.labelNumUpcomingQuiz = new System.Windows.Forms.Label();
             this.labelNumPendingTasks = new System.Windows.Forms.Label();
             this.labelNumDayFinal = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label_MyList = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.announcebutton = new System.Windows.Forms.Button();
+            this.quizbutton = new System.Windows.Forms.Button();
+            this.Routine = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelDashboardUp.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -188,37 +187,35 @@
             this.labelNumDayFinal.TabIndex = 1;
             this.labelNumDayFinal.Text = "72";
             // 
-            // button1
+            // announcebutton
             // 
-            this.button1.Location = new System.Drawing.Point(502, 207);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 56);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Announcement";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.announcebutton.Location = new System.Drawing.Point(31, 254);
+            this.announcebutton.Name = "announcebutton";
+            this.announcebutton.Size = new System.Drawing.Size(157, 47);
+            this.announcebutton.TabIndex = 19;
+            this.announcebutton.Text = "Announcement";
+            this.announcebutton.UseVisualStyleBackColor = true;
+            this.announcebutton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label_MyList
+            // quizbutton
             // 
-            this.label_MyList.AutoSize = true;
-            this.label_MyList.Font = new System.Drawing.Font("Ebrima", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_MyList.ForeColor = System.Drawing.SystemColors.Control;
-            this.label_MyList.Location = new System.Drawing.Point(23, 235);
-            this.label_MyList.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label_MyList.Name = "label_MyList";
-            this.label_MyList.Size = new System.Drawing.Size(120, 41);
-            this.label_MyList.TabIndex = 17;
-            this.label_MyList.Text = "My List";
+            this.quizbutton.Location = new System.Drawing.Point(31, 339);
+            this.quizbutton.Name = "quizbutton";
+            this.quizbutton.Size = new System.Drawing.Size(157, 47);
+            this.quizbutton.TabIndex = 20;
+            this.quizbutton.Text = "Quiz";
+            this.quizbutton.UseVisualStyleBackColor = true;
+            this.quizbutton.Click += new System.EventHandler(this.quizbutton_Click);
             // 
-            // dataGridView1
+            // Routine
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(31, 279);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1090, 305);
-            this.dataGridView1.TabIndex = 18;
+            this.Routine.Location = new System.Drawing.Point(31, 421);
+            this.Routine.Name = "Routine";
+            this.Routine.Size = new System.Drawing.Size(157, 47);
+            this.Routine.TabIndex = 21;
+            this.Routine.Text = "Routine";
+            this.Routine.UseVisualStyleBackColor = true;
+            this.Routine.Click += new System.EventHandler(this.Routine_Click);
             // 
             // Dashboard
             // 
@@ -226,18 +223,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(1182, 649);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.Routine);
+            this.Controls.Add(this.quizbutton);
+            this.Controls.Add(this.announcebutton);
             this.Controls.Add(this.panelDashboardUp);
-            this.Controls.Add(this.label_MyList);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelDashboardUp.ResumeLayout(false);
             this.panelDashboardUp.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -253,8 +248,8 @@
         private System.Windows.Forms.Label labelNumUpcomingQuiz;
         private System.Windows.Forms.Label labelNumPendingTasks;
         private System.Windows.Forms.Label labelNumDayFinal;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label_MyList;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button announcebutton;
+        private System.Windows.Forms.Button quizbutton;
+        private System.Windows.Forms.Button Routine;
     }
 }

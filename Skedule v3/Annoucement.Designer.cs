@@ -33,6 +33,7 @@
             this.btn_remove = new System.Windows.Forms.Button();
             this.dgw_announce = new System.Windows.Forms.DataGridView();
             this.txt_notice = new System.Windows.Forms.TextBox();
+            this.buttondash = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgw_announce)).BeginInit();
             this.SuspendLayout();
             // 
@@ -103,12 +104,30 @@
             this.txt_notice.Size = new System.Drawing.Size(882, 33);
             this.txt_notice.TabIndex = 43;
             // 
+            // buttondash
+            // 
+            this.buttondash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(26)))), ((int)(((byte)(45)))));
+            this.buttondash.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttondash.FlatAppearance.BorderSize = 0;
+            this.buttondash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttondash.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttondash.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttondash.Location = new System.Drawing.Point(914, 25);
+            this.buttondash.Margin = new System.Windows.Forms.Padding(4);
+            this.buttondash.Name = "buttondash";
+            this.buttondash.Size = new System.Drawing.Size(200, 38);
+            this.buttondash.TabIndex = 44;
+            this.buttondash.Text = "Dashboard";
+            this.buttondash.UseVisualStyleBackColor = false;
+            this.buttondash.Click += new System.EventHandler(this.buttondash_Click);
+            // 
             // Announcement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(1234, 657);
+            this.Controls.Add(this.buttondash);
             this.Controls.Add(this.txt_notice);
             this.Controls.Add(this.dgw_announce);
             this.Controls.Add(this.btn_remove);
@@ -130,5 +149,6 @@
         private System.Windows.Forms.Button btn_remove;
         private System.Windows.Forms.DataGridView dgw_announce;
         private System.Windows.Forms.TextBox txt_notice;
+        private System.Windows.Forms.Button buttondash;
     }
 }

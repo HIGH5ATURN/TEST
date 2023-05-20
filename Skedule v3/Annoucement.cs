@@ -171,5 +171,11 @@ namespace Skedule_v3
                 MessageBox.Show(f);
             }
         }
+
+        private void buttondash_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Dashboard().Show();
+        }
     }
 }

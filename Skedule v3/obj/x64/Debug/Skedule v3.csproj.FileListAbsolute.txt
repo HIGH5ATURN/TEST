@@ -28,3 +28,19 @@ C:\Users\Hp\Desktop\Skedule v3\Skedule v3\obj\x64\Debug\Skedule v3.csproj.Genera
 C:\Users\Hp\Desktop\Skedule v3\Skedule v3\obj\x64\Debug\Skedule v3.csproj.CoreCompileInputs.cache
 C:\Users\Hp\Desktop\Skedule v3\Skedule v3\bin\x64\Debug\Guna.UI.dll
 C:\Users\Hp\Desktop\Skedule v3\Skedule v3\obj\x64\Debug\Skedule v3.csproj.CopyComplete
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\bin\x64\Debug\Skedule v3.exe.config
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\bin\x64\Debug\Skedule v3.exe
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\bin\x64\Debug\Skedule v3.pdb
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule v3.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule v3.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule_v3.Announcement.resources
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule_v3.Dashboard.resources
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule_v3.Form1.resources
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule_v3.Properties.Resources.resources
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule_v3.Quiz.resources
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule v3.csproj.GenerateResource.cache
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule v3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule v3.csproj.CopyComplete
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule v3.exe
+C:\Users\User\Desktop\OniTasnim\TEST\Skedule v3\obj\x64\Debug\Skedule v3.pdb
+C:\Users\User\Desktop\ONITASNIM\TEST\Skedule v3\obj\x64\Debug\Skedule_v3.Routine.resources
