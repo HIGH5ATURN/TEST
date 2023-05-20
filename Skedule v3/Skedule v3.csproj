@@ -89,6 +89,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Quiz.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Routine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Routine.Designer.cs">
+      <DependentUpon>Routine.cs</DependentUpon>
+    </Compile>
     <Compile Include="Student.cs" />
     <Compile Include="SystemManage.cs" />
     <EmbeddedResource Include="Annoucement.resx">
@@ -119,6 +131,9 @@
     </Compile>
     <EmbeddedResource Include="Quiz.resx">
       <DependentUpon>Quiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Routine.resx">
+      <DependentUpon>Routine.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

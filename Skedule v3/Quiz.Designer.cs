@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgw_quiz = new System.Windows.Forms.DataGridView();
             this.labelLogin = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -47,6 +47,7 @@
             this.btn_update = new System.Windows.Forms.Button();
             this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.gunaControlBox2 = new Guna.UI.WinForms.GunaControlBox();
+            this.buttondash = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgw_quiz)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,23 +57,23 @@
             this.dgw_quiz.AllowUserToDeleteRows = false;
             this.dgw_quiz.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgw_quiz.BackgroundColor = System.Drawing.Color.Honeydew;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(211)))), ((int)(((byte)(175)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(16)))), ((int)(((byte)(42)))));
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(192)))), ((int)(((byte)(68)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(16)))), ((int)(((byte)(42)))));
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgw_quiz.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(211)))), ((int)(((byte)(175)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(16)))), ((int)(((byte)(42)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(192)))), ((int)(((byte)(68)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(16)))), ((int)(((byte)(42)))));
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgw_quiz.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgw_quiz.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Honeydew;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(16)))), ((int)(((byte)(42)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(192)))), ((int)(((byte)(68)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(16)))), ((int)(((byte)(42)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgw_quiz.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Honeydew;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(16)))), ((int)(((byte)(42)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(192)))), ((int)(((byte)(68)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(16)))), ((int)(((byte)(42)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgw_quiz.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgw_quiz.Location = new System.Drawing.Point(24, 80);
             this.dgw_quiz.Name = "dgw_quiz";
             this.dgw_quiz.ReadOnly = true;
@@ -97,6 +98,7 @@
             this.labelLogin.Size = new System.Drawing.Size(139, 45);
             this.labelLogin.TabIndex = 43;
             this.labelLogin.Text = "Quizzes";
+            this.labelLogin.Click += new System.EventHandler(this.labelLogin_Click);
             // 
             // dateTimePicker1
             // 
@@ -105,6 +107,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(112, 22);
             this.dateTimePicker1.TabIndex = 45;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // roomtext
             // 
@@ -112,6 +115,7 @@
             this.roomtext.Name = "roomtext";
             this.roomtext.Size = new System.Drawing.Size(106, 22);
             this.roomtext.TabIndex = 46;
+            this.roomtext.TextChanged += new System.EventHandler(this.roomtext_TextChanged);
             // 
             // syllabustext
             // 
@@ -120,6 +124,7 @@
             this.syllabustext.Size = new System.Drawing.Size(741, 53);
             this.syllabustext.TabIndex = 47;
             this.syllabustext.Text = "";
+            this.syllabustext.TextChanged += new System.EventHandler(this.syllabustext_TextChanged);
             // 
             // label1
             // 
@@ -132,6 +137,7 @@
             this.label1.Size = new System.Drawing.Size(89, 23);
             this.label1.TabIndex = 43;
             this.label1.Text = "Quiz Date";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -144,6 +150,7 @@
             this.label2.Size = new System.Drawing.Size(85, 23);
             this.label2.TabIndex = 43;
             this.label2.Text = "Room No";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -156,6 +163,7 @@
             this.label3.Size = new System.Drawing.Size(76, 23);
             this.label3.TabIndex = 43;
             this.label3.Text = "Syllabus";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -168,6 +176,7 @@
             this.label4.Size = new System.Drawing.Size(70, 23);
             this.label4.TabIndex = 43;
             this.label4.Text = "Subject";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // subjecttext
             // 
@@ -175,6 +184,7 @@
             this.subjecttext.Name = "subjecttext";
             this.subjecttext.Size = new System.Drawing.Size(155, 22);
             this.subjecttext.TabIndex = 46;
+            this.subjecttext.TextChanged += new System.EventHandler(this.subjecttext_TextChanged);
             // 
             // timetext
             // 
@@ -182,6 +192,7 @@
             this.timetext.Name = "timetext";
             this.timetext.Size = new System.Drawing.Size(106, 22);
             this.timetext.TabIndex = 46;
+            this.timetext.TextChanged += new System.EventHandler(this.timetext_TextChanged);
             // 
             // label5
             // 
@@ -194,6 +205,7 @@
             this.label5.Size = new System.Drawing.Size(50, 23);
             this.label5.TabIndex = 43;
             this.label5.Text = "Time";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // addButton
             // 
@@ -261,6 +273,7 @@
             this.gunaControlBox1.OnPressedColor = System.Drawing.Color.Black;
             this.gunaControlBox1.Size = new System.Drawing.Size(66, 39);
             this.gunaControlBox1.TabIndex = 50;
+            this.gunaControlBox1.Click += new System.EventHandler(this.gunaControlBox1_Click);
             // 
             // gunaControlBox2
             // 
@@ -278,6 +291,24 @@
             this.gunaControlBox2.OnPressedColor = System.Drawing.Color.Black;
             this.gunaControlBox2.Size = new System.Drawing.Size(66, 39);
             this.gunaControlBox2.TabIndex = 51;
+            this.gunaControlBox2.Click += new System.EventHandler(this.gunaControlBox2_Click);
+            // 
+            // buttondash
+            // 
+            this.buttondash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(26)))), ((int)(((byte)(45)))));
+            this.buttondash.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttondash.FlatAppearance.BorderSize = 0;
+            this.buttondash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttondash.Font = new System.Drawing.Font("Ebrima", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttondash.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttondash.Location = new System.Drawing.Point(915, 35);
+            this.buttondash.Margin = new System.Windows.Forms.Padding(4);
+            this.buttondash.Name = "buttondash";
+            this.buttondash.Size = new System.Drawing.Size(200, 38);
+            this.buttondash.TabIndex = 52;
+            this.buttondash.Text = "Dashboard";
+            this.buttondash.UseVisualStyleBackColor = false;
+            this.buttondash.Click += new System.EventHandler(this.buttondash_Click);
             // 
             // Quiz
             // 
@@ -285,6 +316,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(1142, 617);
+            this.Controls.Add(this.buttondash);
             this.Controls.Add(this.gunaControlBox2);
             this.Controls.Add(this.gunaControlBox1);
             this.Controls.Add(this.btn_update);
@@ -331,5 +363,6 @@
         private System.Windows.Forms.Button btn_update;
         private Guna.UI.WinForms.GunaControlBox gunaControlBox1;
         private Guna.UI.WinForms.GunaControlBox gunaControlBox2;
+        private System.Windows.Forms.Button buttondash;
     }
 }
